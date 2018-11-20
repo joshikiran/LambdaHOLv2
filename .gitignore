@@ -1,16 +1,32 @@
-# Generated Files #
-*.class
-*~
-*.orig
-*.rej
-*#
+target/
 
-# Package Files #
-*.jar
-*.war
-*.ear
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
 
-# NetBeans Files #
-/LambdaLab/build/
-/LambdaLab/dist/
-/LambdaLab/nbproject/private/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+.mvn
+
+
+### WebApp ###
+*.css.map
+
+src/main/webapp/
+
+src/main/procure2pay/node_modules/

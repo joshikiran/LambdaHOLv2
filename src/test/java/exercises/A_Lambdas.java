@@ -1,10 +1,12 @@
 package exercises;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.function.BiFunction;
-
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -12,10 +14,6 @@ import java.util.function.Supplier;
 
 import org.junit.Ignore;
 import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
 
 /**
  * This set of exercises is about lambdas and method references.
